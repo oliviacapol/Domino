@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+@font-face {
+  font-family: 'Hibora-Regular';
+  src: url('public/Hibora-Regular.ttf') format('truetype');
+}
+
+
+.custom-button {
+  font-family: 'Hibora-Regular', sans-serif; 
+  font-size: 70px;
+  background-color: #000000;
+  color: white;
+
+  position: fixed;
+
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border: none;
+}
+
+.end-button {
+  font-family: 'Hibora-Regular', sans-serif; 
+  font-size: 70px;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+
+  position: fixed;
+
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 1000px;
+  padding-bottom: 1000px;
+  padding-right: 1000px;
+  padding-left: 1000px;
+}
